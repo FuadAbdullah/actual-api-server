@@ -1,0 +1,9 @@
+services:
+  actual-api-wrapper:
+    image: actual-api-wrapper
+    ports:
+      - 3000:3000
+    volumes:
+      - ./data:/usr/src/app/data
+
+
